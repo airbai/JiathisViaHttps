@@ -720,11 +720,7 @@ var JIATHIS_CONFIGS = {
                 path: p,
                 webid: q
             }
-        }, jiathis_utility_ifr = !! window.postMessage ? creElm({
-            style: "display:none;",
-            frameBorder: 0,
-            src: JIATHIS_CONFIGS.codehost + "/jiathis_utility.html"
-        }, "iframe") : null,
+        }, jiathis_utility_ifr = null,
         div = creElm({
             className: "jiathis_style",
             style: "position:absolute;z-index:1000000000;display:none;overflow:auto;"
