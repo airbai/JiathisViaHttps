@@ -2,7 +2,7 @@
 var JIATHIS_CONFIGS = {
     webhost: "https://raw.github.com",
     lhost: "http://l.jiathis.com",
-    codehost: "",
+    codehost: "https://raw.github.com/airbai/JiathisViaHttps/master/",
     sc: false,
     uid: 1626433,
     ckprefix: "jt_",
