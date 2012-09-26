@@ -562,7 +562,8 @@ var JIATHIS_CONFIGS = {
                         ifsrc = 'http://www.kaixin001.com/like/like.php?url=' + encodeURIComponent(likeurl) + '&show_faces=' + _gv(o.show_faces, 'false')
                     }
                     if (ifsrc) {
-                        ci.innerHTML = '<span class="jiathis_txt jiathis_separator jialike"><iframe src="' + ifsrc + '" allowTransparency="true" scrolling="no" border="0" frameborder="0" style="width:' + _gv(o.width, 200) + 'px;height:' + _gv(o.height, 25) + 'px"></iframe></span>'
+                        //ci.innerHTML = '<span class="jiathis_txt jiathis_separator jialike"><iframe src="' + ifsrc + '" allowTransparency="true" scrolling="no" border="0" frameborder="0" style="width:' + _gv(o.width, 200) + 'px;height:' + _gv(o.height, 25) + 'px"></iframe></span>'
+                        ci.innerHTML = '<span class="jiathis_txt jiathis_separator jialike"></span>'
                     } else {
                         ci.innerHTML = ''
                     }
