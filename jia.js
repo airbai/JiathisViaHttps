@@ -1,6 +1,6 @@
 /* (c) 2012 JiaThis Inc. 0817*/
 var JIATHIS_CONFIGS = {
-    webhost: "http://www.jiathis.com",
+    webhost: "https://raw.github.com",
     lhost: "http://l.jiathis.com",
     codehost: "",
     sc: false,
